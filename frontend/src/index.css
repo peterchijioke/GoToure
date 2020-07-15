@@ -7,9 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.slide-in-left-enter {
-  transform: translateX(100%);
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

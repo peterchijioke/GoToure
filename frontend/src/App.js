@@ -13,6 +13,7 @@ import "./Shared/Components/Navigation/MainNavigation.css";
 import "./Shared/Components/Navigation/NavLinks.css";
 import "./Shared/Components/Navigation/SideDrawer.css";
 import "./Shared/Components/UIElements/Backdrop.css";
+import UserPlaces from "./Places/Pages/UserPlaces";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Users />
+          </Route>
+          <Route path="/:userId/places" exact>
+            <UserPlaces />
           </Route>
           <Route path="/places/new" exact>
             <NewPalce />
